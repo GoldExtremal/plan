@@ -109,8 +109,8 @@
     }
     details[open] summary::before{transform:rotate(90deg)}
 
-    .grid{display:grid; grid-template-columns:repeat(3, 1fr); gap:14px; padding:0 16px 16px}
-    @media (max-width: 860px){ .grid{grid-template-columns:1fr} }
+    .grid{display:flex; flex-direction: column; gap:14px; padding:0 16px 16px}
+    /* @media (max-width: 860px){ .grid{grid-template-columns:1fr} } */
 
     .pill{display:inline-block; padding:4px 10px; border-radius:999px; border:1px solid rgba(255,255,255,.12); background:rgba(255,255,255,.04); font-size:12px; color:var(--muted)}
     .kicker{display:flex; gap:8px; align-items:center; margin-bottom:8px}
