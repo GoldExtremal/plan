@@ -16,5 +16,5 @@
 <ul>
   <li>Теория (например, статья на learn.javascript.ru по массивам)</li>
   <li>Практика (например, несколько задач на codewars.com)</li>  
-  <li>Проект (например, таймер (start/stop/reset))</li>
+  <li>Проект (например, таймер (start/stop/reset)</li>
 </ul>
